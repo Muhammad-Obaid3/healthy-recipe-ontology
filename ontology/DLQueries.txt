@@ -1,0 +1,10 @@
+DL Queries with Outputs
+1️⃣	Recipe and isSuitableFor value Vegan								✅ VeganCurry, AvocadoToast
+2️⃣	Recipe and isSpicy value true										❌ None (All your recipes have isSpicy = false)
+3️⃣	Recipe and hasIngredient value Avocado							✅ AvocadoToast
+4️⃣	Ingredient and isRestrictedBy value GlutenFree						✅ Pasta (if defined and contains gluten)
+5️⃣	Recipe and hasCookingMethod value Grilled							✅ GrilledSalmon
+6️⃣	Recipe and isSuitableFor value DiabeticFriendly						✅ GrilledSalmon, AvocadoToast
+7️⃣	Ingredient and isSeasonalFor value Summer							✅ Avocado, Tomato, Cucumber, Strawberry (if defined)
+8️⃣	Recipe and hasCuisineType value Mediterranean						✅ GrilledSalmon, AvocadoToast (assuming these were tagged)
+9️⃣	Recipe and (hasIngredient some (hasNutrient value Protein))	✅ GrilledSalmon, VeganCurry (if their ingredients have Protein)

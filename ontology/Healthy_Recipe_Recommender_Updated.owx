@@ -1,0 +1,1147 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/muham/ontologies/2025/3/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/muham/ontologies/2025/3/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/muham/ontologies/2025/3/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Healthy Recipe Recommender Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Baked"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Berry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Citrus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CookingMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuisineType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dairy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiabeticFriendly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DietaryRestriction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dinner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fried"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlutenFree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Italian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeafyGreen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowFat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowSodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lunch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MealType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mediterranean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutrient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RootVegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seasonal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Summer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yougurt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsNutrient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCuisineType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMealType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutrient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCookedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRestrictedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSeasonalFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSuitableFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#notSuitableFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesLeafyGreen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCookTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrepTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasServings"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ingredientQuantity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isSpicy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nutrientAmount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avocado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvocadoToast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baked"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carbs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carrot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chickpeas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoconutMilk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiabeticFriendly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dinner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fiber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fried"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GlutenFree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grilled"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowFat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lunch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mediterranean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#None"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OliveOil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Protein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salmon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spinach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strawberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VeganCurry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WheatFlour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Winter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vegan_diet1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wholeGrainBread"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Baked"/>
+        <Class IRI="#CookingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berry"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast"/>
+        <Class IRI="#MealType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbs"/>
+        <Class IRI="#Nutrient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheese"/>
+        <Class IRI="#Dairy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuisineType"/>
+        <Class IRI="#Recipe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiabeticFriendly"/>
+        <Class IRI="#DietaryRestriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinner"/>
+        <Class IRI="#MealType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiber"/>
+        <Class IRI="#Nutrient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fried"/>
+        <Class IRI="#CookingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlutenFree"/>
+        <Class IRI="#DietaryRestriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilled"/>
+        <Class IRI="#CookingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indian"/>
+        <Class IRI="#CuisineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italian"/>
+        <Class IRI="#CuisineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeafyGreen"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowFat"/>
+        <Class IRI="#Nutrient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowSodium"/>
+        <Class IRI="#DietaryRestriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lunch"/>
+        <Class IRI="#MealType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MealType"/>
+        <Class IRI="#Recipe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mediterranean"/>
+        <Class IRI="#CuisineType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <Class IRI="#Dairy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protein"/>
+        <Class IRI="#Nutrient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RootVegetable"/>
+        <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seasonal"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Summer"/>
+        <Class IRI="#Seasonal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegan"/>
+        <Class IRI="#DietaryRestriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetable"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Winter"/>
+        <Class IRI="#Seasonal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yougurt"/>
+        <Class IRI="#Dairy"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Baked"/>
+        <Class IRI="#Fried"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Baked"/>
+        <Class IRI="#Grilled"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dairy"/>
+        <Class IRI="#Vegan"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fried"/>
+        <Class IRI="#Grilled"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Vegetable"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Meat"/>
+        <Class IRI="#Vegan"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Citrus"/>
+        <NamedIndividual IRI="#Avocado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#Avocado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Avocado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recipe"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Baked"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MealType"/>
+        <NamedIndividual IRI="#Breakfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nutrient"/>
+        <NamedIndividual IRI="#Carbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RootVegetable"/>
+        <NamedIndividual IRI="#Carrot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Chickpeas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dairy"/>
+        <NamedIndividual IRI="#CoconutMilk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#CoconutMilk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DietaryRestriction"/>
+        <NamedIndividual IRI="#DiabeticFriendly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MealType"/>
+        <NamedIndividual IRI="#Dinner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nutrient"/>
+        <NamedIndividual IRI="#Fiber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Fried"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DietaryRestriction"/>
+        <NamedIndividual IRI="#GlutenFree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CookingMethod"/>
+        <NamedIndividual IRI="#Grilled"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recipe"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CuisineType"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nutrient"/>
+        <NamedIndividual IRI="#Iron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CuisineType"/>
+        <NamedIndividual IRI="#Italian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nutrient"/>
+        <NamedIndividual IRI="#LowFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MealType"/>
+        <NamedIndividual IRI="#Lunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CuisineType"/>
+        <NamedIndividual IRI="#Mediterranean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#OliveOil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nutrient"/>
+        <NamedIndividual IRI="#Protein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Salmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meat"/>
+        <NamedIndividual IRI="#Salmon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Spinach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LeafyGreen"/>
+        <NamedIndividual IRI="#Spinach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berry"/>
+        <NamedIndividual IRI="#Strawberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#Strawberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Strawberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasonal"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DietaryRestriction"/>
+        <NamedIndividual IRI="#Vegan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegan"/>
+        <NamedIndividual IRI="#Vegan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recipe"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#WheatFlour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Seasonal"/>
+        <NamedIndividual IRI="#Winter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegan"/>
+        <NamedIndividual IRI="#vegan_diet1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#wholeGrainBread"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#Avocado"/>
+        <NamedIndividual IRI="#Fiber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#Avocado"/>
+        <NamedIndividual IRI="#LowFat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <NamedIndividual IRI="#Avocado"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRestrictedBy"/>
+        <NamedIndividual IRI="#Avocado"/>
+        <NamedIndividual IRI="#None"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSeasonalFor"/>
+        <NamedIndividual IRI="#Avocado"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <NamedIndividual IRI="#Baked"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCuisineType"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <NamedIndividual IRI="#Mediterranean"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <NamedIndividual IRI="#Avocado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <NamedIndividual IRI="#wholeGrainBread"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMealType"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <NamedIndividual IRI="#Breakfast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <NamedIndividual IRI="#DiabeticFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <NamedIndividual IRI="#Vegan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#Chickpeas"/>
+        <NamedIndividual IRI="#Fiber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#Chickpeas"/>
+        <NamedIndividual IRI="#Protein"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRestrictedBy"/>
+        <NamedIndividual IRI="#Chickpeas"/>
+        <NamedIndividual IRI="#None"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#CoconutMilk"/>
+        <NamedIndividual IRI="#LowFat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRestrictedBy"/>
+        <NamedIndividual IRI="#CoconutMilk"/>
+        <NamedIndividual IRI="#DiabeticFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <NamedIndividual IRI="#Grilled"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCuisineType"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <NamedIndividual IRI="#Mediterranean"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <NamedIndividual IRI="#OliveOil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <NamedIndividual IRI="#Salmon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMealType"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <NamedIndividual IRI="#Dinner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <NamedIndividual IRI="#DiabeticFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <NamedIndividual IRI="#GlutenFree"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#OliveOil"/>
+        <NamedIndividual IRI="#LowFat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRestrictedBy"/>
+        <NamedIndividual IRI="#OliveOil"/>
+        <NamedIndividual IRI="#None"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#Salmon"/>
+        <NamedIndividual IRI="#LowFat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#Salmon"/>
+        <NamedIndividual IRI="#Protein"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSeasonalFor"/>
+        <NamedIndividual IRI="#Salmon"/>
+        <NamedIndividual IRI="#Winter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#Spinach"/>
+        <NamedIndividual IRI="#Fiber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#Spinach"/>
+        <NamedIndividual IRI="#Iron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSeasonalFor"/>
+        <NamedIndividual IRI="#Spinach"/>
+        <NamedIndividual IRI="#Winter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSeasonalFor"/>
+        <NamedIndividual IRI="#Strawberry"/>
+        <NamedIndividual IRI="#Summer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <NamedIndividual IRI="#Fried"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCuisineType"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <NamedIndividual IRI="#Spinach"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMealType"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <NamedIndividual IRI="#Lunch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <NamedIndividual IRI="#Vegan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <NamedIndividual IRI="#vegan_diet1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#wholeGrainBread"/>
+        <NamedIndividual IRI="#Carbs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <NamedIndividual IRI="#wholeGrainBread"/>
+        <NamedIndividual IRI="#Fiber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isRestrictedBy"/>
+        <NamedIndividual IRI="#wholeGrainBread"/>
+        <NamedIndividual IRI="#GlutenFree"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ingredientQuantity"/>
+        <NamedIndividual IRI="#Avocado"/>
+        <Literal>1 whole</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCookTime"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <Literal>Avocado Toast</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrepTime"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasServings"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isSpicy"/>
+        <NamedIndividual IRI="#AvocadoToast"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ingredientQuantity"/>
+        <NamedIndividual IRI="#CoconutMilk"/>
+        <Literal>200ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nutrientAmount"/>
+        <NamedIndividual IRI="#Fiber"/>
+        <Literal>5g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCookTime"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <Literal>Grilled Salmon Fish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrepTime"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasServings"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isSpicy"/>
+        <NamedIndividual IRI="#GrilledSalmon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nutrientAmount"/>
+        <NamedIndividual IRI="#Iron"/>
+        <Literal>4mg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nutrientAmount"/>
+        <NamedIndividual IRI="#LowFat"/>
+        <Literal>3g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nutrientAmount"/>
+        <NamedIndividual IRI="#Protein"/>
+        <Literal>10g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ingredientQuantity"/>
+        <NamedIndividual IRI="#Salmon"/>
+        <Literal>150g</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ingredientQuantity"/>
+        <NamedIndividual IRI="#Spinach"/>
+        <Literal>1 cup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCookTime"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <Literal>Vegan Curry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPrepTime"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasServings"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isSpicy"/>
+        <NamedIndividual IRI="#VeganCurry"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsNutrient"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCuisineType"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMealType"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCookedWith"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRestrictedBy"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSeasonalFor"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#notSuitableFor"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesLeafyGreen"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsNutrient"/>
+        <Class IRI="#Nutrient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCookingMethod"/>
+        <Class IRI="#CookingMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCuisineType"/>
+        <Class IRI="#CuisineType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMealType"/>
+        <Class IRI="#MealType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutrient"/>
+        <Class IRI="#Nutrient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCookedWith"/>
+        <Class IRI="#CookingMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRestrictedBy"/>
+        <Class IRI="#DietaryRestriction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSeasonalFor"/>
+        <Class IRI="#Seasonal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuitableFor"/>
+        <Class IRI="#DietaryRestriction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#notSuitableFor"/>
+        <Class IRI="#DietaryRestriction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesLeafyGreen"/>
+        <Class IRI="#LeafyGreen"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCookTime"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCost"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrepTime"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasServings"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ingredientQuantity"/>
+        <Class IRI="#Ingredient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isSpicy"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nutrientAmount"/>
+        <Class IRI="#Nutrient"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCookTime"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCost"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrepTime"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasServings"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ingredientQuantity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isSpicy"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nutrientAmount"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dairy</IRI>
+        <Literal>Dairy is the subclass of Ingredient having instance coconut milk and disjoint property with Vegan.
+A Vegan can avoid having dairy products and even things made from wool and stuff.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vegetable</IRI>
+        <Literal>vegetables are the ingredinets for a particular recipe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isIngredientOf</IRI>
+        <Literal>This is the inverse of hasIngredient property. If a recipe hasIngredient Avocado, then Avocado isIngredientOf that recipe.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
