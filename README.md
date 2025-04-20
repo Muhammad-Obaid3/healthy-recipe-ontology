@@ -75,6 +75,7 @@ healthy-recipe-ontology/
 │   └── DLQueries.txt        # List of DL queries for reasoning
 ├── docs/
 │   └── Healthy_Recipe_Recommender_Ontology_Report.pdf   # Full academic paper
+    └── Healthy_Recipe_Recommender_Ontology_Report.docx
 ├── screenshots/    # Protégé hierarchy or query view
 │   └── 2.png     
     └── 3.png
