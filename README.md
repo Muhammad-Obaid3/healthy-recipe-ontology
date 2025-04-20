@@ -28,6 +28,19 @@ Rather than using a simple filtering system, this project leverages **ontologies
 - ⚖️ Logical constructs: `equivalence`, `restrictions`, `transitive` and `symmetric` properties
 
 ---
+## 🛠️ Tools & Technologies
+
+Here’s a breakdown of the key tools, frameworks, and technologies used in this project:
+
+| Category             | Tools & Technologies                                                                                     |
+|----------------------|----------------------------------------------------------------------------------------------------------|
+| 🧠 Ontology Modeling | ![Protégé](https://img.shields.io/badge/Protégé-003366?style=for-the-badge&logo=semanticweb&logoColor=white) [Protégé](https://protege.stanford.edu) |
+| 📘 Language Format    | ![OWL](https://img.shields.io/badge/OWL-FF9900?style=for-the-badge&logo=semanticweb&logoColor=white) OWL 2.0 (Web Ontology Language) |
+| 🔍 Reasoning Engine  | 🧠 DL Queries (Description Logic), 📐 Prolog (explored for rule-based logic)                               |
+| 📑 Documentation     | 📝 Markdown, 📄 PDF (Research Paper)                                                                      |
+| 🔧 Version Control   | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
+
+---
 
 ## 🗂️ Project Structure
 
